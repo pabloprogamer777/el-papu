@@ -19,11 +19,70 @@
         font-size: 5rem;
         margin-bottom: 20px;
       }
-      .carousel-inner img {
-        width: 100%;
-        height: 600px;
-        border-radius: 10px;
-        object-fit: contain;
-      }
+      
   </style>
 </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+  <div class="container">
+    <a class="navbar-brand" href="#">Con-Tienda</a>
+
+    <button class="btn btn-outline-light position-relative" onclick="VerUltimaCompra()">
+      🛒 Mi Carro
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        <span id="ContadorDelCarro">0</span>
+      </span>
+    </button>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <h5 class="card-title">Filo del Infinito</h5>
+        <img src="https://static.wikia.nocookie.net/leagueoflegendsoficial/images/a/a9/Infinity_Edge.png/revision/latest/thumbnail/width/360/height/360?cb=20230422221437&path-prefix=es" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <p class="card-text">Este objeto otorga +80 de daño de ataque y +25% de probabilidad de crítico, además su habilidad pasiva "Perfección" incrementa el daño de tus golpes críticos de un 200% a un 225% y un plus de daño adicional según tu probabilidad total de críticos.</p>
+          <button class="btn btn-primary" onclick="Comprar('Filo del Infinito')">Agregar al carro</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <h5 class="card-title">Sombrero Mortífero de Rabadon</h5>
+        <img src="https://i.redd.it/sf2c4rbrt8vf1.png" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <p class="card-text">Este objeto te otorga +130 de daño mágico. Su pasiva "Creación/Obra Mágica incrementa en un 30% tu poder de habilidad total tanto del propio item como de los anteriores, posteriores, runas y otras fuentes.</p>
+          
+          <button class="btn btn-primary" onclick="Comprar('Sombrero Mortífero de Rabadon')">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <h5 class="card-title">Espátula Dorada</h5>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwRNXVFvtRN1LBtJl2RO1s1DTJqCHAVeWbqrCFP0h0bzhjWjKZBEDJ83a&s=10" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <p class="card-text">Tonaledas de TODO.</p>
+          <button class="btn btn-primary" onclick="Comprar('Espátula Dorada')">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container mt-5 mb-5">
+  <div class="row">
+    
+    <div class="col-12 col-md-6">
+      <h3 class="text-white">¡AVISO IMPORTANTE!</h3>
+      <p class="text-white">Nos robaron la mayoría de objetos de la tienda, algunos yordles forasteros posiblemente, pero tenemos stock ilimitado de estos items legendarios.</p>
+    </div>
+  </div>
+
+</body>
+</html>
+  
+  
