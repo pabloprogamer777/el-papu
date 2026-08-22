@@ -1,10 +1,10 @@
-let CompraFinal = null;
+let ultimoElemento = null;
 let TotalDeCompra = 0;
 
 function Comprar(Productname) {
   ultimoElemento = Productname;
   TotalDeCompra++;
-  document.getElementByID('ContadorDelCarro').textContent = TotalDeCompra;
+  document.getElementById('ContadorDelCarro').textContent = TotalDeCompra;
 }
 function VerUltimaCompra(){
   if(ultimoElemento == null){
