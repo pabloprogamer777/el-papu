@@ -146,3 +146,6 @@ vaciarBoton.addEventListener("click", () => {
 mostrarProductos();
 
 mostrarCarrito();
+
+
+me equivoqué de tarea pegando esto xddd
