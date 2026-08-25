@@ -1,20 +1,20 @@
 const productos = [
     {
         id: 1,
-        nombre: "Notebook",
-        precio: 500000,
+        nombre: "AK-47",
+        precio: 670000,
         stock: 5
     },
     {
         id: 2,
-        nombre: "Mouse",
-        precio: 20000,
+        nombre: "Berettas Dobles",
+        precio: 367000,
         stock: 10
     },
     {
         id: 3,
-        nombre: "Teclado",
-        precio: 30000,
+        nombre: "AWP",
+        precio: 800000,
         stock: 8
     }
 ];
