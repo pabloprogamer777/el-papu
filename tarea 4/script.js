@@ -1,20 +1,20 @@
 const productos = [
     {
         id: 1,
-        nombre: "AK-47",
-        precio: 670000,
+        nombre: "BERETTAS DOBLES",
+        precio: 50000,
         stock: 5
     },
     {
         id: 2,
-        nombre: "Berettas Dobles",
-        precio: 367000,
+        nombre: "AK-47",
+        precio: 67000,
         stock: 10
     },
     {
         id: 3,
         nombre: "AWP",
-        precio: 800000,
+        precio: 69000,
         stock: 8
     }
 ];
@@ -72,6 +72,13 @@ function mostrarProductos() {
 
 function agregarAlCarrito(id) {
 
+    const producto = productos.find(p => p.id === id);
+
+    if (producto && producto.stock > 0) {
+        carrito.push(producto);
+
+        producto.stock--;
+    }
   
 
     mostrarCarrito();
@@ -82,7 +89,18 @@ function agregarAlCarrito(id) {
 
 function calcularTotal() {
 
-    
+    let total = 0;
+
+    carrito.forEach(producto => {
+
+        total += producto.precio;
+
+    });
+
+    return total;
+
+
+
 }
 
 
@@ -93,7 +111,7 @@ function mostrarCarrito() {
     if (carrito.length === 0) {
 
         carritoElemento.innerHTML =
-            "<p>El carrito estÃ¡ vacÃ­o</p>";
+            "<p>El carrito está vacío</p>";
 
         totalElemento.textContent = "$0";
 
