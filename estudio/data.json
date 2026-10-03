@@ -1,0 +1,40 @@
+[
+    {
+        "ID": 1,
+        "brand": "Toyota",
+        "model": "yaris",
+        "year": "2022",
+        "plate": "ABCD-12",
+        "status": "Disponible",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo-YoRU7AIQ-1EB6A17r45yhqNYvhAOvIgMooNtcrhdA&s=10"
+    },
+    {
+        "ID": 2,
+        "brand": "Kia",
+        "model": "Rio",
+        "year": "2021",
+        "plate": "EFGB-34",
+        "status": "Disponible",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu_89PPD7y8DYWBvu_Rs1s9H9Wa8KT-hWC1jgNbl0FWw&s=10"
+
+    },
+    {
+        "ID": 3,
+        "brand": "Hyundai",
+        "model": "Accent",
+        "year": "2020",
+        "plate": "HIJK-56",
+        "status": "Arrendado",
+        "image": "https://storage.googleapis.com/fotosautos/automotora/ANFRUNS/1081/1256717/HYUNDAI-ACCENT-polzfh.webp"   
+    },
+    {
+        "ID": 4,
+        "brand": "Suzuki",
+        "model": "Swift",
+        "year": "2023",
+        "plate": "LMNO-78",
+        "status": "Disponible",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWSBHoLV0xVrYV9vBuNwjeot9yzF3dBhyMcKjtxTQ8A&s=10"
+    }
+
+]
